@@ -92,3 +92,41 @@ const myStorage = {
   },
 };
 const gloveBoxContents = myStorage.car.inside["glove box"];
+
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1]
+
+const myArray = [];
+
+// Only change code below this line
+let i = 5;
+
+while (i >= 0) {
+  myArray.push(i);
+  i--
+}
+
+const myArrayTwo = [];
+
+// Only change code below this line
+for (let i = 1; i < 5; i++ ) {
+  myArray.push(i);
+}
